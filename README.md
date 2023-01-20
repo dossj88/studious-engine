@@ -1,19 +1,19 @@
 # studious-engine
-
+---
 
 ## Description
 
 This is an application of a simple text editor that can function both `online` and `offline`. It is a single-page text editor that runs in the browser and meets the PWA criteria. It features a number of data presistence techniques that serve as redundancy in case one of the options is not supported by the browser. This application is deplyed on Heroku and also functions `offline` when `installed`.  
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+---
+## Table of Contents 
 
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Questions](#questions)
 
+---
 ## Installation
 
   Clone my repository on GitHub.
@@ -27,21 +27,19 @@ If your README is long, add a table of contents to make it easy for users to fin
   ```
   npm run start
   ```
-
+---
 ## Usage
-
-  ## Usage
-  Please see the screenshots for an example.
+Please see the screenshots for an example.
   
   ### Features and Functionalities
   
-  This application is developed to allow users to create notes or code snippets with or without an internet connection, so users can reliably retrieve them for later use. It follows the features and functionalities required in the Assignment's README:
+  This application is developed to allow users to create notes or code snippets with or without an internet connection, so users can reliably retrieve them   for later use. It follows the features and functionalities required in the Assignment's README:
   
   1. When the user opens the application in the user's editor, the user will see a client server folder structure.
   
   2. When the user runs `npm run start` from the root directory, the application starts up the backend and serve the client.
   
-  3. When the user runs the text editor application from my terminal, the user will find that the application's JavaScript files have been bundled using webpack.
+  3. When the user runs the text editor application from my terminal, the user will find that the application's JavaScript files have been bundled using        webpack.
   
   4. When the user runs the webpack plugins, the user will find a generated HTML file, service worker, and a manifest file.
   
@@ -87,9 +85,11 @@ The following shows the `downloaded` application:
 
 [A deployed version can be viewed here.](https://thawing-basin-03739.herokuapp.com/)
 
+---
 ## Author
 Jason Doss
 
+---
 ## Questions
 For questions or issues, please contace:
 - Jason Doss
