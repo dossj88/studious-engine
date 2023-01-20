@@ -24,7 +24,7 @@ module.exports = () => {
     //TODO: Add and configure workbox plugins for a service worker and manifest file
     new InjectManifest({
       swSrc: './src-sw.js',
-      swDest: './src-sw.js',
+      swDest: 'src-sw.js',
     }),
     // manifest.json
     new WebpackPwaManifest({
@@ -33,10 +33,11 @@ module.exports = () => {
       name: 'Just Another Text Editor',
       short_name: 'J.A.T.E',
       description: 'Takes notes with JavaScript syntax highlighting!',
-      background_color: '#225ca3'
+      background_color: '#225ca3',
       theme_color: '#225ca3',
       start_url: '/',
       publicPath: '/',
+      display: 'standalone',
       icons: [
         {
           src: path.resolve('src/images/logo.png'),
@@ -61,7 +62,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread' '@babel/transform-runtime'],
+              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             },
           },
         },
