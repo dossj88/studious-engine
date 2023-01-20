@@ -12,16 +12,54 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Questions](#questions)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+  Clone my repository on GitHub.
+  
+  To install the application's `dependencies` and `devDependencies`, run:
+  ```
+  npm install
+  ```
+  
+  To invoke the application, run:
+  ```
+  npm run start
+  ```
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+  ## Usage
+  Please see the screenshots for an example.
+  
+  ### Features and Functionalities
+  
+  This application is developed to allow users to create notes or code snippets with or without an internet connection, so users can reliably retrieve them for later use. It follows the features and functionalities required in the Assignment's README:
+  
+  1. When the user opens the application in the user's editor, the user will see a client server folder structure.
+  
+  2. When the user runs `npm run start` from the root directory, the application starts up the backend and serve the client.
+  
+  3. When the user runs the text editor application from my terminal, the user will find that the application's JavaScript files have been bundled using webpack.
+  
+  4. When the user runs the webpack plugins, the user will find a generated HTML file, service worker, and a manifest file.
+  
+  5. When the user uses next-gen JavaScript in the application, the text editor still functions in the browser without errors.
+  
+  6. When the user opens the text editor, the user will find the IndexedDB has immediately created a database storage.
+  
+  7. When the user enters content and subsequently clicks off of the DOM window, the content in the text editor is saved with IndexedDB.
+  
+  8. When the user reopens the text editor after closing it, the content in the text editor has been retrieved from the IndexedDB.
+  
+  9. When the user clicks on the Install button, the application is downloaded as an icon on the user's desktop.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+  10. When the user loads the application, the user can register a service worker using workbox.
+
+  11. When the user registers a service worker, the user's static assets are pre cached upon loading along with subsequent pages and static assets. 
+  
+  13. When the user deploys to Heroku, the user has a proper build scripts for a webpack application. 
 
 The following shows the launched application:
 
@@ -49,5 +87,13 @@ The following shows the `downloaded` application:
 
 [A deployed version can be viewed here.](https://thawing-basin-03739.herokuapp.com/)
 
+## Author
+Jason Doss
+
+## Questions
+For questions or issues, please contace:
+- Jason Doss
+- Email: jason.j.doss@gmail.com
+- GitHub Profile: https://github.com/dossj88
 
 
