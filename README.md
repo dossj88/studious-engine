@@ -47,8 +47,7 @@ The following shows the `downloaded` application:
 
 ![shot6](https://user-images.githubusercontent.com/115522524/213817341-84800e37-e091-4aea-8fea-1c10687ccfba.png)
 
-[A deployed version can be viewed here.] (https://thawing-basin-03739.herokuapp.com/)
-
+[A deployed version can be viewed here.](https://thawing-basin-03739.herokuapp.com/)
 
 
 
